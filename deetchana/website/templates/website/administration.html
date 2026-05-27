@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Administration</title>
+
+    <style>
+
+        body{
+            margin:0;
+            font-family:serif;
+            background:#fff8f0;
+        }
+
+        header{
+            background:#8b0000;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+        nav{
+            background:#000000;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:20px;
+            font-size:18px;
+            font-weight:bold;
+        }
+
+        .team{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:25px;
+            padding:40px;
+        }
+
+        .member{
+            background:white;
+            border-radius:10px;
+            overflow:hidden;
+            text-align:center;
+            box-shadow:0 0 10px gray;
+        }
+
+        .member img{
+            width:100%;
+            height:250px;
+        }
+
+        .member h3{
+            color:#8b0000;
+            margin-top:10px;
+        }
+
+        .member p{
+            padding-bottom:15px;
+            font-size:18px;
+        }
+
+        footer{
+            background:#8b0000;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>ADMINISTRATION</h1>
+</header>
+
+<nav>
+    <a href="/">Home</a>
+    <a href="/menu/">Menu</a>
+    <a href="/administration/">Administration</a>
+    <a href="/contact/">Contact</a>
+</nav>
+
+<div class="team">
+
+    <div class="member">
+        <img src="/static/images/img1.jpeg">
+        <h3>DEETCHANA</h3>
+        <p>Manager</p>
+    </div>
+    <div class="member">
+        <img src="/static/images/img2.avif">
+        <h3>SUNANINA</h3>
+        <p>Head Chef</p>
+    </div>
+
+    <div class="member">
+        <img src="/static/images/img3.avif">
+        <h3>KIARA</h3>
+        <p>Assistant Chef</p>
+    </div>
+
+    <div class="member">
+        <img src="/static/images/img4.avif">
+        <h3>DIYA</h3>
+        <p>Receptionist</p>
+    </div>
+
+    <div class="member">
+        <img src="/static/images/img5.jpg">
+        <h3>NAVYA</h3>
+        <p>Food Supervisor</p>
+    </div>
+
+    <div class="member">
+        <img src="/static/images/img6.jpeg">
+        <h3>SONA</h3>
+        <p>Service Manager</p>
+    </div>
+
+</div>
+
+<footer>
+    DEETCHANA S
+</footer>
+
+</body>
+</html>

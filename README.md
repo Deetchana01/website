@@ -5,7 +5,7 @@ To develop a static Restaurant website to display the food items and services pr
 
 # DESIGN STEPS:
 ## Step 1:
-Requirement collection.
+Requirement collection. 
 
 ## Step 2:
 Creating the layout using HTML and CSS.
